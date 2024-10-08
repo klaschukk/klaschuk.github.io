@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Обработка изображений</title>
+</head>
+<body>
+    <header class="bg-light py-3">
+        <div class="container text-center">
+            <h1>Обработка изображений</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <i class="fas fa-chevron-down" id="toggleIcon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <nav class="nav flex-column">
+                    <a class="nav-link" href="../index.html">Главная</a>
+                    <a class="nav-link" href="about.html">О сайте</a>
+                    <a class="nav-link" href="html.html">Основы HTML</a>
+                    <a class="nav-link" href="image_processing.html">Обработка изображений</a>
+                    <a class="nav-link" href="install_apps.html">Установка приложений</a>
+                    <a class="nav-link" href="mobile_devices.html">Мобильные устройства</a>
+                    <a class="nav-link" href="modern_os.html">Современные ОС</a>
+                    <a class="nav-link" href="modern_systems.html">Современные системы</a>
+                    <a class="nav-link" href="pc_security.html">Безопасность ПК</a>
+                    <a class="nav-link" href="software_apps.html">Программные приложения</a>
+                    <a class="nav-link" href="static_website.html">Создание статического сайта</a>
+                    <a class="nav-link" href="javascript.html">JavaScript</a>
+                    <a class="nav-link" href="css.html">CSS</a>
+                    <a class="nav-link" href="web_software.html">Веб-программное обеспечение</a>
+                    <a class="nav-link" href="components.html">Компоненты</a>
+                    <a class="nav-link" href="publishing.html">Публикация сайта</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container my-4">
+        <p>Обработка изображений — это процесс изменения изображения, который включает в себя такие действия, как изменение размера, обрезка, изменение формата и применение различных фильтров.</p>
+    </main>
+    <footer class="bg-light py-3 text-center">
+        <p>© 2024 Личный блог</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // Скрипт для смены иконки стрелки
+        $('.navbar-toggler').on('click', function() {
+            const icon = $('#toggleIcon');
+            icon.toggleClass('fa-chevron-down fa-chevron-up');
+        });
+    </script>
+</body>
+</html>
